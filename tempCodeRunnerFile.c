@@ -1,7 +1,2 @@
-#include <stdio.h>
-
-int main(void)
-{
-    printf("Heelo World");
-    return 0;
-}
+  // char c = 'A';
+  // printf("%c\n", c);
