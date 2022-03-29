@@ -8,10 +8,17 @@ int main(void)
   // printf("a 는 %d\n", ++a);
   // printf("a 는 %d\n", a);
 
-  int i = 1;
-  for (int i = 0; i < 10; i++)
+  // int i = 1;
+  // for (int i = 0; i < 10; i++)
+  // {
+  //   printf("Hello Word\n");
+  // }
+
+  int i = 0;
+  while (i < 10)
   {
-    printf("Hello Word\n");
+    printf("Hello World %d\n", i);
+    i++;
   }
 
   return 0;
