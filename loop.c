@@ -14,12 +14,18 @@ int main(void)
   //   printf("Hello Word\n");
   // }
 
+  // int i = 0;
+  // while (i < 10)
+  // {
+  //   printf("Hello World %d\n", i);
+  //   i++;
+  // }
+
   int i = 0;
-  while (i < 10)
+  do
   {
-    printf("Hello World %d\n", i);
-    i++;
-  }
+    printf("Hello World %d\n", i++);
+  } while (i < 10);
 
   return 0;
 }
