@@ -36,13 +36,22 @@ int main(void)
   //   }
   // }
 
-  for (int i = 0; i < 8; i++)
+  // for (int i = 0; i < 8; i++)
+  // {
+  //   printf("%d단 계산\n", i + 2);
+  //   for (int j = 0; j < 9; j++)
+  //   {
+  //     printf("%d * %d = %d\n", i + 2, j + 1, (i + 2) * (j + 1));
+  //   }
+  // }
+
+  for (int i = 0; i < 5; i++)
   {
-    printf("%d단 계산\n", i + 2);
-    for (int j = 0; j < 9; j++)
+    for (int j = 0; j < i + 1; j++)
     {
-      printf("%d * %d = %d\n", i + 2, j + 1, (i + 2) * (j + 1));
+      printf("*");
     }
+    printf("\n");
   }
 
   return 0;
