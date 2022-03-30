@@ -54,15 +54,35 @@ int main(void)
   //   printf("\n");
   // }
 
-  for (int i = 0; i < 5; i++)
+  // for (int i = 0; i < 5; i++)
+  // {
+  //   for (int j = 0; j < 4 - i; j++)
+  //   {
+  //     printf(" ");
+  //   }
+  //   for (int z = 0; z < i + 1; z++)
+  //   {
+  //     printf("*");
+  //   }
+  //   printf("\n");
+  // }
+
+  int floor;
+  printf("몇 층으로 쌓겠느냐?");
+  scanf("%d", &floor);
+  for (int i = 1; i <= floor; i++)
   {
-    for (int j = 0; j < 4 - i; j++)
+    for (int z = 0; z < floor - i; z++)
     {
       printf(" ");
     }
-    for (int z = 0; z < i + 1; z++)
+    for (int j = 0; j < i * 2 - 1; j++)
     {
       printf("*");
+    }
+    for (int y = 0; y < floor - i; y++)
+    {
+      printf(" ");
     }
     printf("\n");
   }
