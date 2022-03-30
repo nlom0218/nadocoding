@@ -21,11 +21,29 @@ int main(void)
   //   i++;
   // }
 
-  int i = 0;
-  do
+  // int i = 0;
+  // do
+  // {
+  //   printf("Hello World %d\n", i++);
+  // } while (i < 10);
+
+  // for (int i = 0; i < 3; i++)
+  // {
+  //   printf("첫 번째 반복문: %d\n", i);
+  //   for (int j = 0; j < 5; j++)
+  //   {
+  //     printf("  두 번째 반복문: %d\n", j);
+  //   }
+  // }
+
+  for (int i = 0; i < 8; i++)
   {
-    printf("Hello World %d\n", i++);
-  } while (i < 10);
+    printf("%d단 계산\n", i + 2);
+    for (int j = 0; j < 9; j++)
+    {
+      printf("%d * %d = %d\n", i + 2, j + 1, (i + 2) * (j + 1));
+    }
+  }
 
   return 0;
 }
